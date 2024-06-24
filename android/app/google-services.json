@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "631334287049",
+    "project_id": "megamart-final-37680",
+    "storage_bucket": "megamart-final-37680.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631334287049:android:fbb9612bf9650c3e6bbf18",
+        "android_client_info": {
+          "package_name": "com.example.megamart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631334287049-m4garv7ium7lqhfghamka8hdaavj13c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-xu2cade8wZ-xRVU5uQOuYc1rsLmGVJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631334287049-m4garv7ium7lqhfghamka8hdaavj13c9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "631334287049-f0cpbk92po3odb0rjn8est91omb1rg0s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.megamart"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631334287049:android:c25824b46478382e6bbf18",
+        "android_client_info": {
+          "package_name": "com.example.megamart_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631334287049-m4garv7ium7lqhfghamka8hdaavj13c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-xu2cade8wZ-xRVU5uQOuYc1rsLmGVJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631334287049-m4garv7ium7lqhfghamka8hdaavj13c9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "631334287049-f0cpbk92po3odb0rjn8est91omb1rg0s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.megamart"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631334287049:android:2f1d4dbde3abc6786bbf18",
+        "android_client_info": {
+          "package_name": "com.example.megamart_vendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631334287049-m4garv7ium7lqhfghamka8hdaavj13c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-xu2cade8wZ-xRVU5uQOuYc1rsLmGVJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631334287049-m4garv7ium7lqhfghamka8hdaavj13c9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "631334287049-f0cpbk92po3odb0rjn8est91omb1rg0s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.megamart"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
