@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:megamart_vendor/views/vendor_login.dart';
 import 'package:megamart_vendor/views/vendor_update_profile.dart';
 
-import 'addProduct.dart';
+import 'vendor_add_product.dart';
 
 class VendorHomePage extends StatelessWidget {
   final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -42,9 +42,9 @@ class VendorHomePage extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => AddProductPage()),
-                );
+                // Navigator.of(context).push(
+                //   MaterialPageRoute(builder: (context) => AddProductPage()),
+                // );
               },
               child: Text('Add Product'),
             ),
