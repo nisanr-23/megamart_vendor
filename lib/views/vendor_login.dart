@@ -106,18 +106,17 @@ class _VendorLoginState extends State<VendorLogin> {
               onPressed: _loginVendor,
               child: Text('Login'),
             ),
+            SizedBox(
+              height: 20,
+            ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text('Don\'t have an account?  '),
-                GestureDetector(
-                  child: Text(
-                    'Sign Up',
-                    style: TextStyle(color: Colors.blue),
-                  ),
-                  onTap: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => VendorSignUp()));
-                  },
-                )
+                TextButton(onPressed: () {
+                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => VendorSignUp()));
+                }, child: Text('Sign Up',style: TextStyle(color: Colors.blue),))
+
               ],
             )
           ],

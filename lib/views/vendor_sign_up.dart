@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:megamart_vendor/views/vendor_login.dart';
 import 'package:megamart_vendor/views/vendor_pending_approval.dart';
 
 class VendorSignUp extends StatefulWidget {
@@ -105,6 +106,20 @@ class _VendorSignUpState extends State<VendorSignUp> {
               onPressed: _signUpVendor,
               child: Text('Sign Up'),
             ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('Already have an account?  '),
+                TextButton(onPressed: () {
+                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => VendorLogin(),));
+                }, child:Text('Log In',style: TextStyle(
+                  color: Colors.blue
+                ),))
+              ],
+            )
           ],
         ),
       ),
