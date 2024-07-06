@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:megamart_vendor/views/vendor_dashboard_view.dart';
+import 'package:megamart_vendor/views/navigations/vendor_dashboard_view.dart';
 
 class ConfirmationScreen extends StatelessWidget {
   @override

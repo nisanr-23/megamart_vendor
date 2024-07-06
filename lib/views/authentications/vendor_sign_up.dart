@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:megamart_vendor/views/vendor_login.dart';
-import 'package:megamart_vendor/views/vendor_pending_approval.dart';
+import 'package:megamart_vendor/views/authentications/vendor_login.dart';
+import 'package:megamart_vendor/views/authentications/vendor_pending_approval.dart';
 
 class VendorSignUp extends StatefulWidget {
   @override

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:megamart_vendor/views/vendor_login.dart';
+import 'package:megamart_vendor/views/authentications/vendor_login.dart';
 import 'package:megamart_vendor/views/vendor_update_profile.dart';
 
-import 'vendor_add_product.dart';
+import '../products/vendor_add_product.dart';
 
 class VendorHomePage extends StatelessWidget {
   final FirebaseAuth _auth = FirebaseAuth.instance;

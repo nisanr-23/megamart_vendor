@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:megamart_vendor/views/vendor_login.dart';
+import 'package:megamart_vendor/views/authentications/vendor_login.dart';
 
 class VendorAccountPage extends StatefulWidget {
   @override

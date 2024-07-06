@@ -6,8 +6,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:megamart_vendor/views/vendor_dashboard_view.dart';
-import 'package:megamart_vendor/views/confirmation_screen.dart';
+import 'package:megamart_vendor/views/navigations/vendor_dashboard_view.dart';
+import 'package:megamart_vendor/views/authentications/confirmation_screen.dart';
 
 class VendorPendingApproval extends StatefulWidget {
   @override
