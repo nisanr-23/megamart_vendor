@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:megamart_vendor/views/navigations/vendor_home.dart';
 import 'package:megamart_vendor/views/products/vendor_products.dart';
-import 'package:megamart_vendor/views/vendor_orders.dart';
+import 'package:megamart_vendor/views/orders/vendor_orders.dart';
 import 'package:megamart_vendor/views/navigations/vendor_account.dart';
 import 'package:megamart_vendor/views/authentications/vendor_login.dart';
 
