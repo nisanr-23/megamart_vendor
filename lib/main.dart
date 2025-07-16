@@ -5,6 +5,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:megamart_vendor/vendor/views/auth/vendor_auth_screen.dart';
 import 'package:megamart_vendor/views/authentications/vendor_login.dart';
 import 'package:megamart_vendor/views/authentications/vendor_sign_up.dart';
+import 'package:megamart_vendor/views/orders/pdf_invoice.dart';
 import 'firebase_options.dart';
 
 
@@ -27,13 +28,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Vendor App',
+      title: 'MegaMart Vendor',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       // home: VendorSignUp(),
       home: VendorLogin(),
+      // home: PdfGenerator(),
       debugShowCheckedModeBanner: false,
     );
   }
